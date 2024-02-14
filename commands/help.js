@@ -56,20 +56,20 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('')
+       .setImage('https://cdn.discordapp.com/avatars/1173662119204507769/83ddc12c0afc8868f0723247037baf43.webp')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
-        .setURL('')
+        .setURL('https://www.youtube.com/')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
         .setLabel('Discord')
-        .setURL('')
+        .setURL('https://discord.gg/5DtD9zUnn9')
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
         .setLabel('zap')
-        .setURL('')
+        .setURL('https://zap-hosting.com/')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
